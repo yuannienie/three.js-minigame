@@ -16,6 +16,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
+  extends: 'eslint:recommended',
   globals: {
     wx: true,
     App: true,
@@ -26,6 +27,5 @@ module.exports = {
     requirePlugin: true,
     requireMiniProgram: true,
   },
-  // extends: 'eslint:recommended',
   rules: {},
 }
